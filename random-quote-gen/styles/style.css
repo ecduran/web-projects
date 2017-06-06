@@ -1,0 +1,25 @@
+	body {
+		background-image: url(https://i.imgur.com/82ZV1qp.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.box-container {
+		margin-top: 70px;
+		/*border: solid 1px;*/
+		padding: 60px 50px 50px; /* top left&right bottom */
+
+	}
+	.quote-box {
+		height: 300px;
+		color: white;
+	}
+	.buttons {
+		margin-top: 20px;
+	}
+	.btn-default {
+		background: rgba(0, 0, 0, 0.1);
+		border: none;
+	}
+ footer {
+   margin-top: -5px;
+ }
