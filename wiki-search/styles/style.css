@@ -1,6 +1,39 @@
+body {
+	background-color: azure;
+}
 
-		.search-box {
-			margin-top: 100px;
-			margin-bottom: 100px;
-		}
-		.tab { margin-left: 40px; }
+.search-box {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Wikipedia-logo-en-big.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 200px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding: 100px;
+}
+.search-box p{
+	margin-top: 10px;
+}
+
+.tab { 
+	margin-left: 40px; 
+}
+
+#result-box .error-link { 
+	text-decoration: none;
+	color: red;
+}
+
+footer {
+	background-color: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+}
+
+footer > p, footer > p > a {
+	color: black;
+}
+
