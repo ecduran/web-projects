@@ -24,6 +24,7 @@ $(document).ready(function(){
 			          $(this).animate({
 			            opacity: 1
 			          }, 500);
+			          
 				          $('#text').text(quote);
 				          if(author){
 								$('#author').text('- ' + author);

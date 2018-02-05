@@ -1,0 +1,42 @@
+
+	body {
+		background-image: url(http://leecountydems.org/wp-content/uploads/2013/05/BLUE.jpg);
+		font-family: 'Raleway', sans-serif;
+		color: white;
+		padding-top: 50px;
+	}
+	.location {
+		padding-top: 40px;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.location a {
+		color: white;
+	}
+
+	.location a:hover {
+		color: gray;
+	}
+
+	.weatherCondition a {
+		color: white;
+	}
+	.weatherCondition a:hover {
+		color: gray;
+	}
+
+
+	.temp {
+		margin-top: -30px;
+		font-size: 129px;
+	}
+	.weatherCondition {
+		font-size: 18px;
+	}
+	.weatherIcon img{
+		margin-top: -50px;
+		width: 300px;
+		height: 300px;
+	}
+
+
